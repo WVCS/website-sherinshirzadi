@@ -1,3 +1,57 @@
 body {
+  background: #f090d0;
+  color: blue;
+  text-align: center;
+}
+img {
+  width: 600px;
+  border:purple 2px solid;
+}
+body {
+  background: #f090d0; /* Fixed hex code */
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+h1 {
+  color: purple;
+}
+
+img {
+  width: 600px;
+  max-width: 100%; /* Keeps it responsive on smaller screens */
+  border: purple 2px solid;
+  margin-top: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.nav-link {
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect when mouse rolls over links */
+.nav-link:hover {
+  color: blue;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Highlights the current page the user is on */
+.nav-link.active {
+  border-bottom: 2px solid purple;
 }
